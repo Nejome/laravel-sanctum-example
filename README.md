@@ -39,7 +39,7 @@ php artisan serve
 ```
 
 #### Notes  
-* Laravel app and SPA must be same domain. They could be in different subdomains.
+* Laravel app and SPA must share the same top-level domain.
 * You can set the SPA domain in .env in SANCTUM_STATEFUL_DOMAINS variable.
 
 
